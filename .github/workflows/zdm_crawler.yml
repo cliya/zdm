@@ -30,7 +30,7 @@ jobs:
         # 优惠信息数量>MIN_PUSH_SIZE就会发邮件,否则积累到下一次触发任务再决定是否推送. 不建议填太小的数字,避免邮件太多了
         MIN_PUSH_SIZE: 20
         # 邮箱的smtp服务器地址
-        emailHost: smtp.qq.com
+        emailHost: smtp.gmail.com
         # 接收优惠信息的邮箱
         emailAccount: ${{secrets.emailAccount}}
         # 接收优惠信息的邮箱的授权码
